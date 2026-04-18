@@ -7,16 +7,6 @@ A CLI tool that transforms **design tokens** (JSON / W3C DTCG format) into platf
 ![CLI](https://img.shields.io/badge/CLI-tool-orange)
 ![Vitest](https://img.shields.io/badge/Vitest-tested-6E9F18)
 
-## Why This Project
-
-Design systems are a **must-have skill** for senior frontend engineers:
-
-- Proves you can bridge **design ↔ engineering** workflows
-- Shows understanding of **W3C Design Token Community Group** spec (`$value`, `$type`)
-- Demonstrates **CLI tool authoring** (publishable to npm)
-- Multi-format output shows platform-agnostic thinking (CSS, SCSS, Tailwind, TS)
-- Includes comprehensive **unit tests** for all generators
-
 ## Quick Start
 
 ```bash
