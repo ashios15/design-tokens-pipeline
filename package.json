@@ -1,0 +1,36 @@
+{
+  "name": "@ashishjoshi/design-tokens-pipeline",
+  "version": "1.0.0",
+  "description": "Transform design tokens from Figma/JSON into CSS custom properties, Tailwind theme config, SCSS variables, and TypeScript constants via a single CLI",
+  "main": "dist/index.js",
+  "bin": {
+    "design-tokens": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/cli.ts",
+    "test": "vitest",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "glob": "^11.0.0",
+    "chokidar": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "tsx": "^4.19.0",
+    "vitest": "^3.0.0",
+    "@types/node": "^22.0.0"
+  },
+  "keywords": [
+    "design-tokens",
+    "design-system",
+    "css-variables",
+    "tailwind",
+    "figma"
+  ],
+  "license": "MIT"
+}
